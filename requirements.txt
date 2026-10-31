@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+xgboost
+torch
+matplotlib
+seaborn
+tensorboard
+jupyterlab
+jupyter-collaboration
+jupytext
+pyyaml
+Sastrawi
