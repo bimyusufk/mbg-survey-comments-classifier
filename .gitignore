@@ -12,3 +12,9 @@ wandb/
 *.pt
 *.pkl
 *.joblib
+
+# Server eksperimen lokal (MLflow) dan tunnel Cloudflare: berisi password dan link rahasia
+.mlflow/
+.share/
+mlruns/
+mlartifacts/

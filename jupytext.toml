@@ -1,0 +1,4 @@
+# Setiap notebook di notebooks/ otomatis dipasangkan dengan file .py (format percent).
+# Review dan resolve konflik merge di GitHub dilakukan pada file .py yang mudah dibaca;
+# .ipynb tetap disimpan untuk output/grafik.
+formats = "notebooks///ipynb,notebooks/py///py:percent"

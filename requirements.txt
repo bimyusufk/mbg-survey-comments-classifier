@@ -7,6 +7,7 @@ xgboost
 matplotlib
 seaborn
 tensorboard
+mlflow[auth]
 jupyterlab
 jupyter-collaboration
 jupytext
