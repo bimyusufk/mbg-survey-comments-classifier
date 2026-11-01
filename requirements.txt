@@ -1,8 +1,9 @@
+# Dependensi inti. PyTorch TIDAK dimasukkan di sini karena di Windows
+# `pip install torch` biasa memasang versi CPU. Lihat README (langkah 3).
 pandas
 numpy
 scikit-learn
 xgboost
-torch
 matplotlib
 seaborn
 tensorboard
@@ -11,3 +12,4 @@ jupyter-collaboration
 jupytext
 pyyaml
 Sastrawi
+nbconvert
