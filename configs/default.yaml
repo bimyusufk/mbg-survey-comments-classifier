@@ -1,0 +1,19 @@
+# Konfigurasi eksperimen bersama. Ubah lewat PR supaya semua anggota memakai setup yang sama.
+seed: 42
+
+data:
+  path: data/labeled/comments_labeled.csv
+  text_col: comment
+  label_col: label
+  id_col: comment_id
+  group_col: post_id
+
+split:
+  test_size: 0.2        # hold-out stratified, hanya dipakai SEKALI untuk evaluasi akhir
+
+cv:
+  n_splits: 5           # stratified k-fold di data latih untuk memilih hyperparameter
+  scoring: f1_macro     # metrik utama: kelas sangat tidak seimbang (DUKUNG 0,9%)
+
+mlflow:
+  experiment: klasifikasi-komentar-ig
